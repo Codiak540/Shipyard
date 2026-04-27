@@ -1,3 +1,14 @@
 {
-  "micro": "https://github.com/micro-editor/micro/releases/download/v2.0.15/micro-2.0.15-linux64.tar.gz"
+  "micro": {
+    "name": "micro",
+    "link": "https://github.com/micro-editor/micro/releases/download/v2.0.15/micro-2.0.15-linux64.tar.gz",
+    "version": "2.0.15",
+    "type": "binary"
+  }
+  "gparted": {
+    "name": "gparted",
+    "link": "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download",
+    "version": "1.8.1",
+    "type": "source"
+  }
 }
