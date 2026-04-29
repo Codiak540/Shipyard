@@ -1,4 +1,5 @@
 {
+  "port_name": "The Official Port",
   "micro": {
     "name": "micro",
     "link": "https://github.com/micro-editor/micro/releases/download/v2.0.15/micro-2.0.15-linux64.tar.gz",
