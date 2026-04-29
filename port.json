@@ -10,5 +10,11 @@
     "link": "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download",
     "version": "1.8.1",
     "type": "source"
+  },
+  "dosbox": {
+    "name": "dosbox",
+    "link": "https://sourceforge.net/projects/dosbox/files/dosbox/0.74-3/dosbox-0.74-3.tar.gz/download",
+    "version": "0.74-3",
+    "type": "source"
   }
 }
