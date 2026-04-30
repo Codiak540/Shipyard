@@ -17,5 +17,11 @@
     "link": "https://sourceforge.net/projects/dosbox/files/dosbox/0.74-3/dosbox-0.74-3.tar.gz/download",
     "version": "0.74-3",
     "type": "source"
+  },
+  "xbindkeys-config": {
+    "name": "xbindkeys-config",
+    "link": "https://github.com/Codiak540/Shipyard/raw/refs/heads/main/packages/xbindkeys_config.tar.gz",
+    "version": "0.1.4",
+    "type": "binary"
   }
 }
