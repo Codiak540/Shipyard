@@ -23,5 +23,11 @@
     "link": "https://github.com/Codiak540/Shipyard/raw/refs/heads/main/packages/xbindkeys_config.tar.gz",
     "version": "0.1.4",
     "type": "binary"
+  },
+  "ship": {
+    "name": "ship",
+    "link": "https://github.com/Codiak540/Shipyard/archive/refs/tags/V1.0.tar.gz",
+    "version": "1.0.0",
+    "type": "source"
   }
 }
