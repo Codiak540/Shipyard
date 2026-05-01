@@ -16,3 +16,5 @@ target_include_directories(ship PRIVATE
 find_package(CURL REQUIRED)
 
 target_link_libraries(ship PRIVATE CURL::libcurl)
+
+install(TARGETS ship)
