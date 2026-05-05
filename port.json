@@ -29,5 +29,11 @@
     "link": "https://github.com/Codiak540/Shipyard/archive/refs/tags/V1.0.tar.gz",
     "version": "1.0.0",
     "type": "source"
+  },
+  "git": {
+    "name": "git",
+    "link": "https://www.kernel.org/pub/software/scm/git/git-2.9.5.tar.xz",
+    "version": "2.5.9",
+    "type": "source"
   }
 }
