@@ -6,6 +6,12 @@
     "version": "2.0.15",
     "type": "binary"
   },
+  "btop": {
+    "name": "btop",
+    "link": "https://github.com/aristocratos/btop/archive/refs/tags/v1.4.7.zip",
+    "version": "1.4.7",
+    "type": "source"
+  },
   "gparted": {
     "name": "gparted",
     "link": "https://sourceforge.net/projects/gparted/files/gparted/gparted-1.8.1/gparted-1.8.1.tar.gz/download",
