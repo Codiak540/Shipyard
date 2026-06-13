@@ -42,6 +42,18 @@
     "version": "1.0.0",
     "type": "source"
   },
+  "linux-task-manager": {
+    "name": "taskmgr",
+    "link": "https://github.com/Codiak540/Linux-Task-Manager/archive/refs/tags/v4.0.0.tar.gz",
+    "version": "4.0.0",
+    "type": "source"
+  },
+  "the-shit": {
+    "name": "shit",
+    "link": "https://github.com/Codiak540/the-shit/archive/refs/tags/V1.0.3.tar.gz",
+    "version": "1.0.3",
+    "type": "source"
+  },
   "git": {
     "name": "git",
     "link": "https://www.kernel.org/pub/software/scm/git/git-2.9.5.tar.xz",
