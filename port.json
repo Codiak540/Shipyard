@@ -6,6 +6,12 @@
     "version": "2.0.15",
     "type": "binary"
   },
+  "dracut": {
+    "name": "dracut",
+    "link": "https://www.kernel.org/pub/linux/utils/boot/dracut/dracut-056.tar.gz",
+    "version": "056",
+    "type": "source"
+  },
    "zstd": {
     "name": "zstd",
     "link": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz",
