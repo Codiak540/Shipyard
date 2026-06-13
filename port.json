@@ -6,6 +6,12 @@
     "version": "2.0.15",
     "type": "binary"
   },
+  "cpio" {
+    "name": "cpio",
+    "link": "https://ftp.gnu.org/gnu/cpio/cpio-2.15.tar.gz",
+    "version": "2.15",
+    "type": "source"
+  }
   "dracut": {
     "name": "dracut",
     "link": "https://www.kernel.org/pub/linux/utils/boot/dracut/dracut-056.tar.gz",
