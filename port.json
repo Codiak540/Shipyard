@@ -6,6 +6,12 @@
     "version": "2.0.15",
     "type": "binary"
   },
+   "zstd": {
+    "name": "zstd",
+    "link": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz",
+    "version": "1.5.7",
+    "type": "source"
+  },
   "btop": {
     "name": "btop",
     "link": "https://github.com/aristocratos/btop/archive/refs/tags/v1.4.7.tar.gz",
