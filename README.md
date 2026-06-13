@@ -1,5 +1,7 @@
 # Shipyard
 My custom package manager! **(WIP)**
+
+### Basic usage
 ```
 Commands:
    help:               (usage: ship help)                        Show help screen
@@ -11,3 +13,5 @@ Commands:
    inspect                (usage: ship inspect <package>)              Show details for an installed package
    port                (usage: ship port <url> [command])        Use the package list from another port
 ```
+
+To add packages see [Creating Ports](https://github.com/Codiak540/Shipyard/wiki#creating-ports)
