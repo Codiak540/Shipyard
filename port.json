@@ -12,6 +12,12 @@
     "version": "4.5.4",
     "type": "source"
   },
+  "librewolf": {
+    "name": "librewolf",
+    "link": "https://codeberg.org/librewolf/source/archive/152.0.4-1.tar.gz",
+    "version": "152.0.4",
+    "type": "source"
+  },
   "cpio": {
     "name": "cpio",
     "link": "https://ftp.gnu.org/gnu/cpio/cpio-2.15.tar.gz",
