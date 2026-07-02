@@ -13,11 +13,18 @@
     "type": "source"
   },
   "librewolf": {
-    "name": "librewolf",
-    "link": "https://codeberg.org/librewolf/source/archive/152.0.4-1.tar.gz",
-    "version": "152.0.4",
-    "type": "source"
-  },
+  "type": "custom",
+  "link": "https://gitlab.com/librewolf-community/browser/linux/-/releases/permalink/latest/downloads/LibreWolf-142.0-1.x86_64.tar.bz2",
+  "name": "librewolf",
+  "version": "142.0-1",
+  "command": [
+    "mkdir -p $STAGE/usr/bin $STAGE/usr/share/applications $STAGE/usr/share/icons/hicolor/128x128/apps",
+    "printf '#!/bin/sh\\nexec /usr/shipped/librewolf/librewolf \"$@\"\\n' > $STAGE/usr/bin/librewolf",
+    "chmod +x $STAGE/usr/bin/librewolf",
+    "cp browser/chrome/icons/default/default128.png $STAGE/usr/share/icons/hicolor/128x128/apps/librewolf.png",
+    "printf '[Desktop Entry]\\nName=LibreWolf\\nExec=/usr/bin/librewolf %%u\\nIcon=librewolf\\nType=Application\\nCategories=Network;WebBrowser;\\n' > $STAGE/usr/share/applications/librewolf.desktop"
+  ]
+}
   "cpio": {
     "name": "cpio",
     "link": "https://ftp.gnu.org/gnu/cpio/cpio-2.15.tar.gz",
