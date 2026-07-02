@@ -24,7 +24,7 @@
     "cp browser/chrome/icons/default/default128.png $STAGE/usr/share/icons/hicolor/128x128/apps/librewolf.png",
     "printf '[Desktop Entry]\\nName=LibreWolf\\nExec=/usr/bin/librewolf %%u\\nIcon=librewolf\\nType=Application\\nCategories=Network;WebBrowser;\\n' > $STAGE/usr/share/applications/librewolf.desktop"
   ]
-}
+  },
   "cpio": {
     "name": "cpio",
     "link": "https://ftp.gnu.org/gnu/cpio/cpio-2.15.tar.gz",
